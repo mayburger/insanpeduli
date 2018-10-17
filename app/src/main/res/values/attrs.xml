@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoginInputLayout">
+        <attr name="dil_drawable" format="reference"/>
+        <attr name="dil_title" format="reference"/>
+
+        <attr name="android:inputType"/>
+        <attr name="android:hint"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:text"/>
+        <attr name="android:imeOptions"/>
+
+    </declare-styleable>
+
+</resources>

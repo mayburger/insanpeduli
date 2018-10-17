@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ornaments"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:src="@drawable/ornaments_profile" />
+
+        <com.pnikosis.materialishprogress.ProgressWheel
+            android:id="@+id/progress_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            app:matProg_barColor="@color/colorWhite"
+            app:matProg_progressIndeterminate="true" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="100dp">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circle_white"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_user_circle" />
+
+                <com.pnikosis.materialishprogress.ProgressWheel
+                    android:id="@+id/progress_picture"
+                    android:layout_width="200dp"
+                    android:visibility="gone"
+                    android:layout_height="200dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circle_white"
+                    app:matProg_barColor="@color/colorPrimaryDark"
+                    app:matProg_progressIndeterminate="true" />
+
+                <ImageView
+                    android:id="@+id/edit_photo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignBottom="@id/image"
+                    android:layout_alignEnd="@id/image"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/circle_white"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_edit_blue" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="Solidaritas Insan Peduli"
+                android:textColor="@color/colorWhite"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muhammad Ghifari"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Muhammad Ghifari"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <com.scwang.wave.MultiWaveHeader
+            android:id="@+id/waveHeader"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:scaleY="-1"
+            app:mwhCloseColor="@color/colorPrimary"
+            app:mwhColorAlpha="0.45"
+            app:mwhGradientAngle="45"
+            app:mwhProgress="1"
+            app:mwhStartColor="@color/colorPrimaryDark"
+            app:mwhVelocity="3"
+            app:mwhWaveHeight="50dp"
+            app:mwhWaves="MultiWave" />
+    </RelativeLayout>
+</ScrollView>

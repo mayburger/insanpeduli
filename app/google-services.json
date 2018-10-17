@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "279499321288",
+    "firebase_url": "https://insanpeduli-bb900.firebaseio.com",
+    "project_id": "insanpeduli-bb900",
+    "storage_bucket": "insanpeduli-bb900.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279499321288:android:8b76143bbd533c77",
+        "android_client_info": {
+          "package_name": "com.mayburger.insanpeduli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279499321288-v85lklolg895omi1nukghm7lpq04g366.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC6QyVoRmdsLoj8-05MtfOMUpvMh_Lu-s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

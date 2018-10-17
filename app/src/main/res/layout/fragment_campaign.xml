@@ -1,0 +1,57 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_64dp"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/campaign"
+                android:textColor="@color/colorGreyLight"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dimen_16dp"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerCampaign"
+                android:layout_width="match_parent"
+                android:background="@color/colorGreyBackgroundLight"
+                android:layout_height="wrap_content" />
+
+            <com.pnikosis.materialishprogress.ProgressWheel
+                android:id="@+id/progress"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="32dp"
+                app:matProg_barColor="@color/colorPrimaryDark"
+                app:matProg_progressIndeterminate="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

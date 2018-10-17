@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Insan Peduli</string>
+    <string name="first_run">first_run</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_attendance">Start donating and make the world\na better place!</string>
+    <string name="hello">Hello!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_taken">Email Taken</string>
+    <string name="not_valid_email">Not a valid email</string>
+    <string name="not_empty">Cannot be empty</string>
+    <string name="password_not_match">Passwords do not match</string>
+    <string name="password_weak">Needs at least 6 characters</string>
+    <string name="campaign">Campaign</string>
+    <string name="none" />
+    <string name="home">Home</string>
+    <string name="amount">Amount</string>
+    <string name="my_donations">My Donations</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="phone">Phone</string>
+    <string name="featured">Featured</string>
+    <string name="donations">Donations</string>
+    <string name="campaign_description">As violence increases in Aleppo, thousands are now fleeing for their lives. They are not going to survive this way, their futures are bleak, and their hopes are shattered.</string>
+</resources>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <include layout="@layout/login_register_a"/>
+    <include layout="@layout/login_register_b"/>
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:scaleY="-1"
+        app:mwhCloseColor="@color/colorPrimary"
+        app:mwhColorAlpha="0.45"
+        app:mwhGradientAngle="45"
+        app:mwhProgress="1"
+        app:mwhStartColor="@color/colorPrimaryDark"
+        app:mwhVelocity="3"
+        app:mwhWaveHeight="50dp"
+        app:mwhWaves="MultiWave" />
+
+</RelativeLayout>
